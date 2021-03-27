@@ -1,0 +1,59 @@
+*{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+a:visited{
+    color: cornflowerblue;
+}
+
+.container{
+    margin: 0px 10%;
+}
+
+.main{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.main a{
+    text-decoration: none;
+}
+
+.product{
+    background-color: cornflowerblue;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product img{
+    float: left;
+    left: 0px;
+    /*display: inline-block;
+    position: absolute; */
+    width: 700px;
+}
+
+.detail{
+    font-size: small;
+}
+.detail p, .detail a{
+    margin: 12px 0px;
+    font-weight: bold;
+}
+.detail:first-child{
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+.detail p:nth-child(2){
+    font-size: 4em;
+}
+.detail p:nth-child(3), p:nth-child(4){
+    font-size: 0.8rem;
+} 
+.detail p:nth-child(5){
+    font-size: 0.8rem;
+} 
