@@ -1,3 +1,74 @@
-.products{
+.showlist{
     margin:auto;
+    width: 100%;
+}
+
+.card{
+    width: 180px;
+    font-size: 0.7rem;
+    text-align: center;
+    display: inline-block;
+    margin: 30px;
+}
+.card img{
+    margin-bottom: 10px;
+}
+.card img:nth-child(1){
+    width: 130px;
+    margin-bottom: 0px;
+}
+.card img:nth-of-type(2){
+    width: 40px;
+}
+.card img:nth-of-type(3){
+    width: 50px;
+}
+
+.card p{
+    line-height: 20px;
+}
+.card p:nth-of-type(1){
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.card p:nth-of-type(3){
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.card input[type=button]{
+    display: block;
+    margin: auto;
+    font-size: large;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.c2 img:nth-of-type(1){
+    width: 95px;
+    margin-bottom: 0px;
+}
+
+.color-select{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.colors{
+    display: inline-block;
+    margin: 3px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    background-color: cadetblue;
+}
+.colors:nth-child(1){
+    background-color: lightgrey;
+}
+.colors:nth-child(2){
+    background-color: gray;
+}
+.colors:nth-child(3){
+    background-color: lightpink;
 }

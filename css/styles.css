@@ -10,8 +10,14 @@ a:visited{
     color: cornflowerblue;
 }
 
+p a{
+    line-height: 30px;
+    font-size: 0.7rem;
+    margin-bottom: 6px;
+}
+
 .container{
-    margin: 0px 10%;
+    margin: 0px 15%;
 }
 
 .main{
@@ -23,13 +29,12 @@ a:visited{
     text-decoration: none;
 }
 
-.product{
-    background-color: cornflowerblue;
+.spotlight{
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
 }
-.product img{
+.spotlight img{
     float: left;
     left: 0px;
     /*display: inline-block;
